@@ -1,7 +1,7 @@
 # SoftUni-QA-Automation
 This repo holds homework and exercises, created during my education at SoftUni.
 
-Screenshot Bank
+Screenshot Bank Tests
 ----------------------------------------------------------------------------------
 ![Bank_Tests](https://user-images.githubusercontent.com/89416424/150660589-7ad3c64b-7d97-4256-968e-104dacdbc9c3.jpg)
 
@@ -29,7 +29,7 @@ Screenshot Selenium WebDriver ContactBook Tests
 --------------------------
 ![ContactBookTests](https://user-images.githubusercontent.com/89416424/150684532-fafdc29e-5116-42af-a20a-8f2804a2bca0.jpg)
 
-Screenshot Selenium WebDriver ExCom Tests
+Screenshot Selenium WebDriver ExCom Test
 ---------------------------------
 ![Test_ExCom](https://user-images.githubusercontent.com/89416424/150684635-e9faaa79-7cc9-4641-a4e6-e8ecea2b4a69.jpg)
 
@@ -39,7 +39,7 @@ Screenshot Selenium WebDriver ShortUrl Form
 ![ShortUrlForm](https://user-images.githubusercontent.com/89416424/150684713-e80d9852-ac84-4cc3-bc32-1c3f79652336.jpg)
 
 
-Screenshot Selenium WebDriver ShortUrl Tests
+Screenshot Selenium WebDriver ShortUrl Test
 -------------------------
 ![Test](https://user-images.githubusercontent.com/89416424/150684739-7b3157fc-324d-4c13-a1c5-c97c9cfe24f9.jpg)
 
@@ -88,7 +88,7 @@ Screenshot Appium Desktop App ContactBook Form
 ![ContactAppDesktopForm](https://user-images.githubusercontent.com/89416424/150687038-343853b6-89fb-4592-89b3-54fca1c6c7df.jpg)
 
 
-Screenshot Appium Desctop App ContactBook Tests
+Screenshot Appium Desctop App ContactBook Test
 -------------------------
 ![ContactAppDesktopTest](https://user-images.githubusercontent.com/89416424/150687071-4a80d286-7611-417e-8705-b58d7b965635.jpg)
 
@@ -108,7 +108,7 @@ Screenshot Appium Windows Zip Form 2
 --------------------
 ![ZipForm2](https://user-images.githubusercontent.com/89416424/150687409-240fa7bc-d8ac-4f6f-a28d-53992d4ef0e2.jpg)
 
-Screenshot Appium Windows Zip Tests
+Screenshot Appium Windows Zip Test
 ---------------------
 ![Zip_Test](https://user-images.githubusercontent.com/89416424/150687429-6de8b181-64d3-496f-933c-3f12040b1cd8.jpg)
 
@@ -133,7 +133,17 @@ Screenshot Data Driven Zippopotamous Tests
 --------------
 ![ZippopotamousDataDrivenTest](https://user-images.githubusercontent.com/89416424/150687821-913e3066-3a04-45c8-bdaa-8fd515c18ed3.jpg)
 
+Screenshot Behavior Driven Metric Calculator Form
+----------------------
+![BehaviorDataDriven2](https://user-images.githubusercontent.com/89416424/150688370-9faf821c-7378-4ed5-8dab-aaf7000b55aa.jpg)
 
 
+Screenshot Behavior Driven Number Calculator Form
+-------------
+![BehaviorDataDrivenForm1](https://user-images.githubusercontent.com/89416424/150688392-04bf5f17-8a20-45c3-a7d6-157b9906f2cb.jpg)
+
+Screenshot Behavior Driven Tests
+------------------
+![BehaviorDataDrivenTests](https://user-images.githubusercontent.com/89416424/150688424-c31a1dd4-e1c1-44ae-ad2c-6a96d75dcc6f.jpg)
 
 

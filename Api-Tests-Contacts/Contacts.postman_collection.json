@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "50b38d99-f7cf-4ce9-9c8d-d31bfc0cf69f",
+		"name": "Contacts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List all Api endpoints",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List all contacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Contact by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts/2",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search contasct Steve",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts/search/Steve",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts",
+						"search",
+						"Steve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search invalid contasct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts/search/invalid",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts",
+						"search",
+						"invalid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"firstName\":\"Anna\", \"lastName\":\"Ivanovich\", \"email\":\"ana@gmail.com\", \"phone\":\"+6898565\", \"comments\":\"Best friend\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleate contact by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://contactbook.nakov.repl.co/api/contacts/4",
+					"protocol": "https",
+					"host": [
+						"contactbook",
+						"nakov",
+						"repl",
+						"co"
+					],
+					"path": [
+						"api",
+						"contacts",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -83,10 +83,34 @@ Screenshot Selenium Grid Tests
 -------------------------
 ![Tests](https://user-images.githubusercontent.com/89416424/150685902-b3eb6b5a-24b8-4897-a19f-9a5af24740ce.jpg)
 
+Screenshot Appium Desktop App ContactBook Form
+-----------------------
+![ContactAppDesktopForm](https://user-images.githubusercontent.com/89416424/150687038-343853b6-89fb-4592-89b3-54fca1c6c7df.jpg)
 
 
+Screenshot Appium Desctop App ContactBook Tests
+-------------------------
+![ContactAppDesktopTest](https://user-images.githubusercontent.com/89416424/150687071-4a80d286-7611-417e-8705-b58d7b965635.jpg)
 
+Screenshot Appium Windows Form Summator
+-----------------------
+![WinForm_Summator](https://user-images.githubusercontent.com/89416424/150687158-069f5a52-dc43-456a-8f9f-60c84599f4c5.jpg)
 
+Screenshot Appium Windows Form Summator Tests
+-----------------------
+![WinFormSumator_Tests](https://user-images.githubusercontent.com/89416424/150687183-c334e759-f5f3-423a-b0ae-93d7c20b28d9.jpg)
+
+Screenshot Appium Windows Zip Form 1
+---------------------
+![ZipForm1](https://user-images.githubusercontent.com/89416424/150687394-ec4d8eac-f44d-4823-b9f6-c70b58a4204f.jpg)
+
+Screenshot Appium Windows Zip Form 2
+--------------------
+![ZipForm2](https://user-images.githubusercontent.com/89416424/150687409-240fa7bc-d8ac-4f6f-a28d-53992d4ef0e2.jpg)
+
+Screenshot Appium Windows Zip Tests
+---------------------
+![Zip_Test](https://user-images.githubusercontent.com/89416424/150687429-6de8b181-64d3-496f-933c-3f12040b1cd8.jpg)
 
 
 

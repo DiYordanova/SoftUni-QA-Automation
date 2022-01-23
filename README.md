@@ -13,3 +13,8 @@ Screenshot Contacts Form
 Screenshot Contacts Tests
 ----------------------------
 ![ContactsTests](https://user-images.githubusercontent.com/89416424/150674397-0747e8da-0b5e-4f66-afc9-2eeaeb254b21.jpg)
+
+Screenshot GitHub Tests
+------------------------------
+
+![API_GitHub_Tests](https://user-images.githubusercontent.com/89416424/150683002-ceba0961-dbda-4f7d-b909-04d5a2aa589a.jpg)

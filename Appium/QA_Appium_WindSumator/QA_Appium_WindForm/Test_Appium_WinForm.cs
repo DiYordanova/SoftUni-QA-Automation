@@ -14,7 +14,7 @@ namespace QA_Appium_WindForm
         public void Setup()
         {          
             var options = new AppiumOptions();
-            options.AddAdditionalCapability(MobileCapabilityType.App, @"C:\Users\35989\source\repos\QA_Appium\QA_Appium_WindForm\WindowsFormsApp.exe");
+            options.AddAdditionalCapability(MobileCapabilityType.App, @"C:\Users\Dyliana\Desktop\SoftUni-QA-Automation\Appium\QA_Appium_WindSumator\WindowsFormsApp.exe");
             options.AddAdditionalCapability(MobileCapabilityType.PlatformName, "Windows");
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, "WindowsPC");
             driver = new WindowsDriver<WindowsElement>( new Uri("http://[::1]:4723/wd/hub"), options);         

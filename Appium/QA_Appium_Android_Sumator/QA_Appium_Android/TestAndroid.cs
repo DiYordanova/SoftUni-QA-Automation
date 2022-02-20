@@ -51,7 +51,7 @@ namespace QA_Appium_Android
             var btnCalcSum = driver.FindElement(By.Id("com.example.androidappsummator:id/buttonCalcSum"));
             btnCalcSum.Click();
             var txtSum = driver.FindElement(By.Id("com.example.androidappsummator:id/editTextSum"));
-            Assert.AreEqual("30", txtSum.Text);
+            Assert.AreEqual("error", txtSum.Text);
         }
 
         [OneTimeTearDown]

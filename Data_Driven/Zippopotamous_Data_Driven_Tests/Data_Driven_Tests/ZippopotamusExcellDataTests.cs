@@ -9,14 +9,14 @@ namespace Data_Driven_Tests
     class ZippopotamusExcellDataTests
     {
         [TestCaseSource("LoadTestDataFromExcel")]
-        public void Test_Zippopotamus(string countryCode, string zipCode, string place, string expectedStateCode)
+        public void Test_Zippopotamus(string countryCode, string zipCode, string expectedPlace, string expectedStateCode)
         {
             var restClient = new RestClient("http://api.zippopotam.us");
             var request = new RestRequest(countryCode + "/" + zipCode);
             var response = restClient.Execute(request);
             var location = new JsonDeserializer().Deserialize<Location>(response);
 
-            StringAssert.Contains(place, location.Places[0].PlaceName);
+            StringAssert.Contains(expectedPlace, location.Places[0].PlaceName);
             StringAssert.Contains(expectedStateCode, location.Places[0].StateAbbreviation);
         }
 

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace API_Tests_GitHub
+﻿namespace API_Tests_GitHub
 {
     public class IssueResponse
     {

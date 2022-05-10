@@ -21,7 +21,7 @@ namespace Summator.Test
         {
             double actual = summator.Sum(new double[] { 10, 6 });
             int expected = 16;
-            Assert.That(actual == expected);
+            Assert.AreEqual(expected, actual);
         }
 
         [Test]

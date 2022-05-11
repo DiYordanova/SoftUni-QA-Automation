@@ -146,4 +146,9 @@ Screenshot Behavior Driven Tests
 ------------------
 ![BehaviorDataDrivenTests](https://user-images.githubusercontent.com/89416424/150688424-c31a1dd4-e1c1-44ae-ad2c-6a96d75dcc6f.jpg)
 
+Screenshot Summator Tests
+-------------------------
+![SummatorTests](https://user-images.githubusercontent.com/105145475/167785751-4e00330f-fee9-47ab-81f0-53fcde3c1de8.jpg)
+
+
 

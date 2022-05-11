@@ -62,15 +62,23 @@ namespace Summator.Test
         [Test]
         public void Substraction_OnePositiveNumber()
         {
-            long actual = summator.SubstractionOneNumber(10, 2);
-            int expected = 8;
+            long actual = summator.Substraction(10, new long[] {3});
+            int expected = 7;
+            Assert.AreEqual(expected, actual);
+        }   
+        
+        [Test]
+        public void Substraction_TwoPositiveNumber()
+        {
+            long actual = summator.Substraction(100, new long[] { 10, 6 });
+            int expected = 84;
             Assert.AreEqual(expected, actual);
         }
 
         [Test]
         public void Substraction_NegativeMinuendAndSubtrahend()
         {
-            long actual = summator.SubstractionOneNumber(-100, -60);
+            long actual = summator.Substraction(-100, new long[] {-60});
             int expected = -40;
             Assert.AreEqual(expected, actual);
         }
@@ -78,24 +86,17 @@ namespace Summator.Test
         [Test]
         public void Substraction_NegativeMinuendAndSubtrahend_BigValues()
         {
-            long actual = summator.SubstractionOneNumber(-3000000000, -1000000000);
+            long actual = summator.Substraction(-3000000000, new long[] { -1000000000 });
             long expected = -2000000000;
             Assert.AreEqual(expected, actual);
         }
 
-        [Test]
-        public void Substraction_TwoPositiveNumber()
-        {
-            long actual = summator.SubstractionMoreThenOneNumber(100, new long[] { 10, 6 });
-            int expected = 84;
-            Assert.AreEqual(expected, actual);
-        }
 
 
         [Test]
         public void Substraction_NegativeMinuendAndThreeNegativeSubtrahend()
         {
-            long actual = summator.SubstractionMoreThenOneNumber(-1, new long[] {-2, -3, -4});
+            long actual = summator.Substraction(-1, new long[] {-2, -3, -4});
             int expected = 8;
             Assert.AreEqual(expected, actual);
         }
@@ -103,7 +104,7 @@ namespace Summator.Test
         [Test]
         public void Substraction_EmptyArray()
         {
-            long actual = summator.SubstractionMoreThenOneNumber(100, new long[] {});
+            long actual = summator.Substraction(100, new long[] {});
             int expected = 100;
             Assert.AreEqual(expected, actual);
         }
@@ -111,7 +112,7 @@ namespace Summator.Test
         [Test]
         public void Substraction_TwoSubtrahend_BigValue()
         {
-            long actual = summator.SubstractionMoreThenOneNumber(1, new long[] {3000000000, 3000000000 });
+            long actual = summator.Substraction(1, new long[] {3000000000, 3000000000 });
             long expected = -5999999999;
             Assert.AreEqual(expected, actual);
         }

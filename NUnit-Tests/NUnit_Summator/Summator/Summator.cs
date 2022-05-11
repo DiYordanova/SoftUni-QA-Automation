@@ -13,16 +13,9 @@ namespace Summator
             }
 
             return sum;
-        }
+        }     
 
-        public long SubstractionOneNumber(long minuend, long subtrahend)
-        {
-            minuend -= subtrahend;
-
-            return minuend;
-        }
-
-        public long SubstractionMoreThenOneNumber(long minuend, long[] subtrahend)
+        public long Substraction(long minuend, long[] subtrahend)
         {
             for (int i = 0; i < subtrahend.Length; i++)
             {

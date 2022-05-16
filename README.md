@@ -149,3 +149,7 @@ Screenshot Behavior Driven Tests
 Screenshot Summator Tests
 ---------------------
 ![SummatorTests](https://user-images.githubusercontent.com/105145475/167785751-4e00330f-fee9-47ab-81f0-53fcde3c1de8.jpg)
+
+Screenshot GitHub Tests Homework
+-----------------------
+![Tests](https://user-images.githubusercontent.com/89416424/168693102-5e3a42b2-292b-4bd8-ac16-c15924745884.jpg)

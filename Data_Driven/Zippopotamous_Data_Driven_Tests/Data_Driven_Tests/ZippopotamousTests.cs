@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using RestSharp;
 using RestSharp.Serialization.Json;
+using System.Net;
 
 namespace Data_Driven_Tests
 {
@@ -20,6 +21,9 @@ namespace Data_Driven_Tests
             var response = restClient.Execute(request);
             var location = new JsonDeserializer().Deserialize<Location>(response);
 
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            Assert.AreEqual(countryCode, location.CountryAbbreviation);
+            Assert.AreEqual(zipCode, location.PostCode);
             StringAssert.Contains(expectedPlace, location.Places[0].PlaceName);
         }        
     }

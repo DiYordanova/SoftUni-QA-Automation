@@ -21,9 +21,11 @@ Screenshot API GitHub Tests
 ![API_GitHub_Tests](https://user-images.githubusercontent.com/89416424/150683002-ceba0961-dbda-4f7d-b909-04d5a2aa589a.jpg)
 
 
-Screenshot API GitHub Tests
-------------------------------
-![TestsGitHubHomework](https://user-images.githubusercontent.com/89416424/169168349-b8e19a96-16f9-4eae-b3e2-b0704bde1adc.jpg)
+
+Screenshot Api GitHub Tests Homework
+-----------------------
+![TestsGitHubHomework](https://user-images.githubusercontent.com/89416424/169169141-ef650061-9a81-43cd-a1b0-be21991fb07f.jpg)
+
 
 
 Screenshot Selenium WebDriver ContactBook Form
@@ -31,9 +33,11 @@ Screenshot Selenium WebDriver ContactBook Form
 ![contactForm](https://user-images.githubusercontent.com/89416424/150684422-764e9903-4a09-4a5b-8c84-00b19fad2ef6.jpg)
 
 
+
 Screenshot Selenium WebDriver ContactBook Tests
 --------------------------
 ![ContactBookTests](https://user-images.githubusercontent.com/89416424/150684532-fafdc29e-5116-42af-a20a-8f2804a2bca0.jpg)
+
 
 
 Screenshot Selenium WebDriver ExCom Test
@@ -176,8 +180,3 @@ Screenshot Behavior Driven Tests
 Screenshot Summator Tests
 ---------------------
 ![SummatorTests](https://user-images.githubusercontent.com/105145475/167785751-4e00330f-fee9-47ab-81f0-53fcde3c1de8.jpg)
-
-
-Screenshot GitHub Tests Homework
------------------------
-![Tests](https://user-images.githubusercontent.com/89416424/168693102-5e3a42b2-292b-4bd8-ac16-c15924745884.jpg)

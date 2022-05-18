@@ -10,8 +10,8 @@ namespace API_Tests_GitHub
 {
     public class Tests
     {
-        const string GitHubApiUserName = "DiYordanova";
-        const string GitHubApiPassword = "GitHub_Password";        
+        const string GitHubApiUserName = "ENTER_YOUR_GITHUB_USERNAMDE";
+        const string GitHubApiPassword = "ENTER_YOUR_GITHUB_PASSWORD";        
 
         [Test]
         public void Test_GitHubAPI_GetIssuesByRepo()

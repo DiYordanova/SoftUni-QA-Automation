@@ -41,10 +41,9 @@ Screenshot Selenium WebDriver ShortUrl Form
 
 Screenshot Selenium WebDriver ShortUrl Test
 -------------------------
-![Test](https://user-images.githubusercontent.com/89416424/150684739-7b3157fc-324d-4c13-a1c5-c97c9cfe24f9.jpg)
+Screens![TestShortUrl](https://user-images.githubusercontent.com/89416424/169166667-beef130e-e251-488e-8da9-d833f4d8d8d1.jpg)
 
-
-Screenshot Selenium WebDriver Student Registry Form
+hot Selenium WebDriver Student Registry Form
 ------------------------
 ![StudentRegistryForm](https://user-images.githubusercontent.com/89416424/150684775-4b8162c2-4a8b-4101-a723-0a09eed3759e.jpg)
 

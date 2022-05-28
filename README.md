@@ -180,3 +180,12 @@ Screenshot Behavior Driven Tests
 Screenshot Summator Tests
 ---------------------
 ![SummatorTests](https://user-images.githubusercontent.com/105145475/167785751-4e00330f-fee9-47ab-81f0-53fcde3c1de8.jpg)
+
+
+
+Screenshot ContactBook Android Appium
+------------------------
+![ContactBook_Android_Tests](https://user-images.githubusercontent.com/89416424/170843394-f1350e6f-7162-4846-b9e4-990b5f1e6a0e.jpg)
+
+
+

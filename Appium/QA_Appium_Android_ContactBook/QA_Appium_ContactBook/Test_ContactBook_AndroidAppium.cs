@@ -57,6 +57,7 @@ namespace QA_Appium_ContactBook
                 "contactbook.androidclient:id/textViewLastName"));
 
             var contactCount = driver.FindElementById("contactbook.androidclient:id/textViewSearchResult").Text;
+            wait.Until(t => connectSearch.Text != "");
 
             Assert.AreEqual("Contacts found: 1", contactCount);
             Assert.AreEqual("Albert", firstNameBox.Text);
@@ -122,7 +123,7 @@ namespace QA_Appium_ContactBook
 
             Assert.AreEqual("Contacts found: 0", contactCount);
         }
-
+        
         [TearDown]
         public void ShutDown()
         {

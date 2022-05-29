@@ -14,14 +14,14 @@ namespace QA_Appium_WindForm
         public void Setup()
         {          
             var options = new AppiumOptions();
-            options.AddAdditionalCapability(MobileCapabilityType.App, @"C:\Users\Dyliana\Desktop\SoftUni-QA-Automation\Appium\QA_Appium_WindSumator\WindowsFormsApp.exe");
+            options.AddAdditionalCapability(MobileCapabilityType.App, @"D:\SoftUni\SoftUni-QA-Automation\Appium\QA_Appium_WindSumator\WindowsFormsApp.exe");
             options.AddAdditionalCapability(MobileCapabilityType.PlatformName, "Windows");
             options.AddAdditionalCapability(MobileCapabilityType.DeviceName, "WindowsPC");
-            driver = new WindowsDriver<WindowsElement>( new Uri("http://[::1]:4723/wd/hub"), options);         
+            driver = new WindowsDriver<WindowsElement>( new Uri("http://127.0.0.1:4723/wd/hub"), options);         
         }
 
         [Test]
-        public void Test_Sumator_ValidData()
+        public void Test_ValidData()
         {
             driver.FindElementByAccessibilityId("textBoxFirstNum").Clear();
             driver.FindElementByAccessibilityId("textBoxFirstNum").SendKeys("20");
@@ -33,7 +33,7 @@ namespace QA_Appium_WindForm
         }
 
         [Test]
-        public void Test_Sumator_InalidData()
+        public void Test_InalidData()
         {
             driver.FindElementByAccessibilityId("textBoxFirstNum").Clear();
             driver.FindElementByAccessibilityId("textBoxFirstNum").SendKeys("20");

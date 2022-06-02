@@ -112,19 +112,23 @@ Screenshot Appium Desctop App ContactBook Test
 ![ContactAppDesktopTest](https://user-images.githubusercontent.com/89416424/150687071-4a80d286-7611-417e-8705-b58d7b965635.jpg)
 
 
+
 Screenshot Appium Windows Form Summator
 -----------------------
 ![WinForm_Summator](https://user-images.githubusercontent.com/89416424/150687158-069f5a52-dc43-456a-8f9f-60c84599f4c5.jpg)
 
 
+
 Screenshot Appium Windows Form Summator Tests
------------------------
-![WinFormSumator_Tests](https://user-images.githubusercontent.com/89416424/150687183-c334e759-f5f3-423a-b0ae-93d7c20b28d9.jpg)
+------------------------
+![WinFormSummator_Tests](https://user-images.githubusercontent.com/89416424/170847889-89ab5192-cb46-4a73-b466-7c7a47bbfb87.jpg)
+
 
 
 Screenshot Appium Windows Zip Form 1
 ---------------------
 ![ZipForm1](https://user-images.githubusercontent.com/89416424/150687394-ec4d8eac-f44d-4823-b9f6-c70b58a4204f.jpg)
+
 
 
 Screenshot Appium Windows Zip Form 2

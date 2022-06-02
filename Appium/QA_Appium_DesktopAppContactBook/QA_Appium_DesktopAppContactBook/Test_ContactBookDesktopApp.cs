@@ -9,8 +9,8 @@ namespace QA_Appium_DesktopAppContactBook
 {
     public class Test_ContactBookDesktopApp
     {
-        private const string AppiumServerUrl = "http://[::1]:4723/wd/hub";
-        private const string AppiumForTesting = @"C:\Users\35989\source\repos\QA_Appium\QA_Appium_DesktopAppContactBook/ContactBook-DesktopClient.exe";
+        private const string AppiumServerUrl = "http://127.0.0.1:4723/wd/hub";
+        private const string AppiumForTesting = @"D:\SoftUni\SoftUni-QA-Automation\Appium\QA_Appium_DesktopAppContactBook/ContactBook-DesktopClient.exe";
         private const string ContaktBookApiUrl = "https://contactbook.nakov.repl.co/api";
         private WindowsDriver<WindowsElement> driver;        
 

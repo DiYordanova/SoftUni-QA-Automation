@@ -71,7 +71,7 @@ namespace ContactApiTests
             IRestResponse response = client.Execute(request);
 
             Assert.AreEqual(HttpStatusCode.BadRequest, response.StatusCode);
-            
+            Assert.AreEqual("{\"errMsg\":\"Last name cannot be empty!\"}", response.Content);
         }
 
         [Test]

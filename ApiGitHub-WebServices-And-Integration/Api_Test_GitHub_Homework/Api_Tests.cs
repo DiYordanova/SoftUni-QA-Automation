@@ -10,8 +10,8 @@ namespace Api_Test_GitHub_Homework
 {
     public class Tests
     {
-        const string GitHubApiUserName = "DiYordanova";
-        const string GitHubApiToken = "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";
+        const string GitHubApiUserName = "ENTER_YOUR_GITHUB_USERNAME";
+        const string GitHubApiToken = "ENTER_YOUR_GITHUB_TOKEN";
         private RestClient client;
 
         [SetUp]

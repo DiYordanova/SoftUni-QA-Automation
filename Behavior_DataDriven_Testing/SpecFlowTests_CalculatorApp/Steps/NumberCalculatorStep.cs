@@ -59,7 +59,7 @@ namespace SpecFlowTests_CalculatorApp.Steps
         }
 
         [When("the two numbers are (.*)")]
-        public void WhenTheTwoNumbersAreAdded(string operation)
+        public void WhenTheTwoNumbersAre(string operation)
         {            
             if (operation == "added")
             {
